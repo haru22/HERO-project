@@ -1,3 +1,4 @@
 node_modules/
 .DS_Store
 public/images/HERO-project_100MB.mp4
+package-lock.json
