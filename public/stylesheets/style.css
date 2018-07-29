@@ -8,11 +8,14 @@ url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
-	text-align: right;
-	background-image: url("../images/Cambodia_180619_0054.jpg");
-    background-color: #FFF;
-    background-repeat: no-repeat;
+	text-align: center;
+	/*background-image: url("../images/Cambodia_180619_0054.jpg");*/
+	/*background-size: cover;*/
+   /* background-color: #FFF;
+    background-repeat: no-repeat;*/
 }
+
+
 
 img {
 	max-width: 100%;
@@ -23,7 +26,9 @@ img {
 	width: 100%;
 	max-width: 70em;
 	margin: 0 auto;
+	float:right;
 	background:rgba(0,0,0,0.5);
+	/*background:rgba(255,130,14,0.5); orange transparent*/
 	padding: 1em;
 }
 
@@ -50,23 +55,28 @@ p:last-of-type {
 	margin-top: 1em;
 	font-size: 3.5rem;
 	margin-bottom: 1em;
+	text-align: right;
 	font-weight: 900;
-	text-shadow: text-shadow: 1px 1px 2px pink;
 }
 
 .title p {
 	margin-bottom: 2em;
 	display: block;
+	text-align: right;
 	font-size: 2em;
 	font-weight: 700;
-	text-shadow: text-shadow: 1px 1px 2px pink;
 
 }
 
 
-@media (min-width: 55rem) {
-	.home-about h1 {
+@media (max-width: 55rem) {
+	.title h1{
 		font-size: 2rem;
+		text-align: center;
+		padding-top: 3em;
+	}
+	.title p1 {
+		text-align: center;
 	}
 }
 
@@ -174,9 +184,19 @@ nav.stroke ul li a:hover:after {
 
 	.logo {
 		float: left;
+		margin-left: 1em;
 	}
 	.nav {
 		float: right;
+	}
+}
+
+@media (max-width: 416px) {
+	.logo {
+		float: center;
+	}
+	.nav {
+		float: center;
 	}
 }
 
@@ -185,7 +205,7 @@ nav.stroke ul li a:hover:after {
 ================== */
 
 .about-hero {
-	background-image: url("images/Cambodia_180619_0054.jpg");
+	background-image: url("../images/Cambodia_180619_0054.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -195,7 +215,7 @@ nav.stroke ul li a:hover:after {
 
 
 }
-@media (min-width: 55rem) {
+@media (min-width: 60rem) {
 	.about-hero {
 		height: 100vh;
 		padding-top: 35vh;
@@ -203,41 +223,34 @@ nav.stroke ul li a:hover:after {
 	}
 }
 
-/* home about
-================== */
-
-.home-about-textbox {
+video {
 	background-color: #232323;
-	padding: 4em;
-	width: 100vw;
-	margin-left: -2.5%;
-	outline: 2px solid #FFCCFF;
+	padding: 0em 3.5em;
 	outline-offset: -2.5em;
-	color: #FFF;
+	outline: 2px solid #E8E8E8;
+	width: 100vw
 	position: relative;
-	letter-spacing: 0.15em;
-}
-
-.home-about-textbox h1 {
-	color: #FFCCFF;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	top: .75em;
-	background-color: #232323;
-	padding: 0 .145em;
 }
 
 .video-bg {
 	position: absolute;
-	top: 800px;
-	left: 670px;
+	top: 700px;
+	left: 50px;
+	margin: 1em 1em;
 
+
+}
+
+
+@media (min-width: 956px) {
+	video {
+		float: center;
+	}
 }
 
 @media (max-width: 60rem) {
 	h1 {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 	.home-about-textbox h1 {
 		top: 1.5em;
@@ -248,7 +261,7 @@ nav.stroke ul li a:hover:after {
 
 @media (min-width: 60rem) {
 	h1 {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 
 	.home-about {
@@ -329,6 +342,7 @@ nav.stroke ul li a:hover:after {
 
 footer {
 	padding: 20px;
+	background-color: #FFF;
 }
 
 
