@@ -8,10 +8,9 @@ url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
-	text-align: right;
-	background-image: url("../images/Cambodia_180619_0054.jpg");
+	text-align: center;
+	background-image: url("/assets/Cambodia_180619_0054(edit).jpg");
     background-color: #FFF;
-    background-repeat: no-repeat;
 }
 
 img {
@@ -23,8 +22,6 @@ img {
 	width: 100%;
 	max-width: 70em;
 	margin: 0 auto;
-	background:rgba(0,0,0,0.5);
-	padding: 1em;
 }
 
 /* typoraphy
@@ -51,7 +48,6 @@ p:last-of-type {
 	font-size: 3.5rem;
 	margin-bottom: 1em;
 	font-weight: 900;
-	text-shadow: text-shadow: 1px 1px 2px pink;
 }
 
 .title p {
@@ -59,7 +55,6 @@ p:last-of-type {
 	display: block;
 	font-size: 2em;
 	font-weight: 700;
-	text-shadow: text-shadow: 1px 1px 2px pink;
 
 }
 
@@ -121,7 +116,6 @@ nav ul {
 	margin: 1em;
 	padding: 0;
 	list-style: none;
-	text-align: center;
 }
 
 nav li {
@@ -185,21 +179,17 @@ nav.stroke ul li a:hover:after {
 ================== */
 
 .about-hero {
-	background-image: url("images/Cambodia_180619_0054.jpg");
-	background-repeat: no-repeat;
+	background-image: url("images/Cambodia_180619_0054(edit).jpg");
 	background-size: cover;
 	background-position: center;
 	padding: 10em 0;
 	color: #FFF;
-
-
 
 }
 @media (min-width: 55rem) {
 	.about-hero {
 		height: 100vh;
 		padding-top: 35vh;
-
 	}
 }
 
