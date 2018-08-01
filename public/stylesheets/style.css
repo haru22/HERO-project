@@ -29,7 +29,7 @@ img {
 	float:right;
 	background:rgba(0,0,0,0.5);
 	/*background:rgba(255,130,14,0.5); orange transparent*/
-	padding: 1em;
+	padding: 1em 1em;
 }
 
 /* typoraphy
@@ -246,7 +246,7 @@ video {
 
 }
 
-@media (max-width: 890px) {
+@media (max-width: 1024px) {
 	video {
 		
 		float: center;
@@ -289,7 +289,7 @@ video {
 =================== */
 
 .pictures {
-	margin: 5em 0 30em;
+	margin: 0.3em 0 30em;
 	padding-top: 3em;
 	padding-bottom: 10em;
 }
@@ -340,12 +340,12 @@ footer {
 
 
 
-/* travel.html
+/* cambodia.html
 =================== */
 
 .tipsTitle {
 	padding: 5em 0;
-	font-size: 2em;
+	font-size: 4em;
 	font-family: "Playlist", sans-serif;
 	color: #FFF;
 }
@@ -359,16 +359,12 @@ footer {
 
 @media (min-width: 60em) {
 	.tipsTitle {
-		padding: 5em 0 2em 0;
-		font-size: 4em;
+		padding: 3em 0 2em 0;
+		font-size: 6em;
 	}
 }
 
 
-.tipsArea {
-	background-color: #FFE2BA;
-	padding: 165px 80px 110px;
-}
 
 .tips .ttl .txt {
 	font-size: 3rem;
@@ -386,10 +382,7 @@ p .txt {
 
 }
 
-.tips .ttl {
-	color: #3c7cf1;
-	line-height: 1.7;
-}
+
 
 .answer {
 	left: 50%;
@@ -437,13 +430,13 @@ p .txt {
 }
 
 .historyArea  {
-	background-color: #FFCBA4;
+	background-color: #FFF;
 	margin: 0 2.5em 0 2.5em;
 
 }
 
 .titleArea {
-	background-image: url("images/Movie_180716_0048.jpg");
+	background-image: url("/images/Movie_180716_0048.jpg");
 	background-size: cover;
 	margin: 0 2.5em 0 2.5em;
 }
@@ -461,11 +454,11 @@ p .txt {
 }
 
 
-/* project
+/* About
 ===================*/
 
 .project-area {
-	background-color: #FFCBA4;
+	background-color: #FFF;
 	margin: 0 2.5em 0 2.5em;
 	padding-bottom: 5em;
 }
@@ -487,10 +480,12 @@ p .txt {
 }
 
 .project-titleArea {
-	background-image: url("images/Movie_180716_0006.jpg");
+	background-image: url("/images/Movie_180716_0006.jpg");
 	margin: 0 2.5em 0 2.5em;
 	background-size: cover;
 }
+
+
 
 .project-bg {
 	font-family: "Playlist", sans-serif;
@@ -499,14 +494,16 @@ p .txt {
 	opacity: 0.5;
 	position: absolute;
 	bottom: 0;
-	top: 1000px;
-	left: 800px;
+	top: 1150px;
+	left: 600px;
 	z-index: 1;
 }
 
 i {
 	font-size: 2.5em;
 	color: #000000;
+	float: left;
+	padding-left: 0.5em;
 
 }
 
@@ -514,7 +511,7 @@ i {
 ================== */
 
 .travel-titleArea {
-	background-image: url("images/Cambodia_180619_0068.jpg");
+	background-image: url("/images/Cambodia_180619_0068.jpg");
 	margin: 0 2.5em 0 2.5em;
 	background-size: cover;
 }
