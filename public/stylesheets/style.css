@@ -408,13 +408,18 @@ p .txt {
 	margin: 3em 3em 3em 3em;
 }
 
+.his-pic3 {
+	float: left;
+	animation-delay: 300ms;
+	margin: 3em 3em 3em 3em;
+}
 
 .historyArea p {
 	font-size: 1.1rem;
 	line-height: 2;
 	text-align: left;
 	word-wrap: break-word;
-	padding: 3em 3em 3em 3em;
+	padding: 7em 3em 3em 3em;
 
 }
 
@@ -430,7 +435,7 @@ p .txt {
 }
 
 .historyArea  {
-	background-color: #FFF;
+	background-color: #FFCBA4;
 	margin: 0 2.5em 0 2.5em;
 
 }
@@ -448,8 +453,8 @@ p .txt {
 	opacity: 0.5;
 	position: absolute;
 	bottom: 0;
-	top: 2000px;
-	left: 800px;
+	top: 1450px;
+	left: 700px;
 	z-index: 1;
 }
 
@@ -458,13 +463,13 @@ p .txt {
 ===================*/
 
 .project-area {
-	background-color: #FFF;
+	background-color: #FFCBA4;
 	margin: 0 2.5em 0 2.5em;
 	padding-bottom: 5em;
 }
 
 .project p {
-	
+	padding-left: 1em;
 	padding-top: 2em;
 	line-height: 2;
 	word-wrap: break-word;
