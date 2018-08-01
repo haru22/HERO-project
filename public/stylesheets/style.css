@@ -434,7 +434,7 @@ p .txt {
 	background: linear-gradient(transparent 40%, #BDEDFF 40%);
 }
 
-.historyArea  {
+.historyArea {
 	background-color: #FFCBA4;
 	margin: 0 2.5em 0 2.5em;
 
@@ -512,13 +512,37 @@ i {
 
 }
 
-/* travel tips
+/* information
 ================== */
+
+h2 {
+	padding-left: 1.5em;
+}
+
+.info-list ul {
+	padding-left: 3em;
+}
 
 .travel-titleArea {
 	background-image: url("/images/Cambodia_180619_0068.jpg");
 	margin: 0 2.5em 0 2.5em;
 	background-size: cover;
 }
+
+.info-list {
+	float:left;
+	font-size: 1.17em;
+	text-align: left;
+	line-height: 2;
+}
+
+.info-innner p{
+	font-size: 1.17em;
+	text-align: left;
+	line-height: 2;
+	padding: 15em 2em 3em 3em;
+}
+
+
 
 
