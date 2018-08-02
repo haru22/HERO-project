@@ -520,7 +520,8 @@ h2 {
 }
 
 .info-list ul {
-	padding-left: 3em;
+	padding: 0em 3em 1em 3em;
+
 }
 
 .travel-titleArea {
@@ -534,13 +535,15 @@ h2 {
 	font-size: 1.17em;
 	text-align: left;
 	line-height: 2;
+	outline: 3px solid #FFF;
+	outline-offset: -1em;
 }
 
 .info-innner p{
 	font-size: 1.17em;
 	text-align: left;
 	line-height: 2;
-	padding: 15em 2em 3em 3em;
+	padding: 17em 2em 5em 3em;
 }
 
 
