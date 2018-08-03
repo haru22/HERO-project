@@ -537,13 +537,15 @@ h2 {
 	line-height: 2;
 	outline: 3px solid #FFF;
 	outline-offset: -1em;
+	background-color: #FFDFC2;
+	margin: 1em auto 1em 1em;
 }
 
 .info-innner p{
 	font-size: 1.17em;
 	text-align: left;
 	line-height: 2;
-	padding: 17em 2em 5em 3em;
+	padding: 18em 2em 5em 3em;
 }
 
 
