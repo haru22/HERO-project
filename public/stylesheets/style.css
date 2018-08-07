@@ -549,5 +549,22 @@ h2 {
 }
 
 
+/*  index who we are
+========================== */
+
+.whoWeAre {
+	font-size: 1.1rem;
+	line-height: 2;
+	text-align: left;
+	word-wrap: break-word;
+	float: right;
+	padding: 5em 3em 2em 50em;
+}
 
 
+.learnMore {
+	font-size: 1.7rem;
+	text-decoration: none;
+	color: #A9A9A9;
+	float: right;
+}
