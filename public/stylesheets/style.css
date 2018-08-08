@@ -415,11 +415,12 @@ p .txt {
 }
 
 .historyArea p {
-	font-size: 1.1rem;
+	font-size: 1.17em;
 	line-height: 2;
 	text-align: left;
 	word-wrap: break-word;
-	padding: 7em 3em 3em 3em;
+	padding: 5em 3em 3em 3em;
+	z-index: 1
 
 }
 
@@ -453,9 +454,9 @@ p .txt {
 	opacity: 0.5;
 	position: absolute;
 	bottom: 0;
-	top: 1800px;
-	left: 800px;
-	z-index: 1;
+	top: 1350px;
+	left: 70px;
+	transform: rotate(-10deg);
 }
 
 
@@ -538,28 +539,61 @@ h2 {
 	outline: 3px solid #FFF;
 	outline-offset: -1em;
 	background-color: #FFDFC2;
-	margin: 1em auto 1em 1em;
+	margin: 3em auto 1em 1em;
 }
 
 .info-innner p{
 	font-size: 1.17em;
 	text-align: left;
 	line-height: 2;
-	padding: 18em 2em 10em 3em;
+	padding: 22em 35em 7em 3em;
 	word-wrap: break-word;
+	z-index: 3;
 }
 
+.info-pic1 {
+	position: absolute;
+	top: 790px;
+	left: 1000px;
+}
+
+.info-pic2 {
+	position: absolute;
+	top: 1000px;
+	left: 850px;
+	z-index: 1;
+}
+
+.info-pic3 {
+	position: absolute;
+	top: 1200px;
+	left: 1000px;
+	
+}
+
+.info-bg {
+	font-family: "Playlist", sans-serif;
+	font-size: 12em;
+	color: #E8E8E8;
+	opacity: 0.5;
+	position: absolute;
+	bottom: 0;
+	top: 1300px;
+	left: 650px;
+	z-index: 2;
+	transform: rotate(-10deg);
+}
 
 /*  index who we are
 ========================== */
 
 .whoWeAre {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	line-height: 2;
 	text-align: left;
 	word-wrap: break-word;
 	float: right;
-	padding: 5em 3em 2em 50em;
+	padding: 5em 6em 2em 45em;
 }
 
 
@@ -567,26 +601,9 @@ h2 {
 	font-size: 1.7rem;
 	text-decoration: none;
 	color: #A9A9A9;
-	float: right;
+	float: left;
+	padding-left: 5em;
+	padding-top: 0.5em;
 }
 
 
-.info-pic1 {
-	position: absolute;
-	top: 700px;
-	left: 1000px;
-}
-
-.info-pic2 {
-	position: absolute;
-	top: 900px;
-	left: 850px;
-	z-index: 1;
-}
-
-.info-pic3 {
-	position: absolute;
-	top: 1100px;
-	left: 1100px;
-	z-index: 1;
-}
