@@ -476,7 +476,7 @@ p .txt {
 	word-wrap: break-word;
 	font-size: 1.17em;
 	text-align: left;
-	z-index: 2;
+	z-index: 20;
 }
 	
 .line-bold {
@@ -502,7 +502,7 @@ p .txt {
 	bottom: 0;
 	top: 1150px;
 	left: 600px;
-	z-index: 1;
+	z-index: 10;
 }
 
 i {
@@ -553,13 +553,13 @@ h2 {
 
 .info-pic1 {
 	position: absolute;
-	top: 790px;
+	top: 830px;
 	left: 1000px;
 }
 
 .info-pic2 {
 	position: absolute;
-	top: 1000px;
+	top: 980px;
 	left: 850px;
 	z-index: 1;
 }
