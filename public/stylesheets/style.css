@@ -1,5 +1,9 @@
-@import
-url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+@import	url('https://fonts.googleapis.com/css?family=Ribeye');
+
+@font-face {
+   font-family: Playlist Script;
+   src: url('Playlist Script.otf') format("opentype");}
 
 * {
 	box-sizing: border-box;
@@ -346,7 +350,7 @@ footer {
 .tipsTitle {
 	padding: 5em 0;
 	font-size: 4em;
-	font-family: "Playlist", sans-serif;
+	font-family: 'Ribeye', cursive;
 	color: #FFF;
 }
 
@@ -448,7 +452,7 @@ p .txt {
 }
 
 .history-bg {
-	font-family: "Playlist", sans-serif;
+	font-family: 'Ribeye';
 	font-size: 15em;
 	color: #E8E8E8;
 	opacity: 0.5;
@@ -494,7 +498,7 @@ p .txt {
 
 
 .project-bg {
-	font-family: "Playlist", sans-serif;
+	font-family: 'Ribeye';
 	font-size: 15em;
 	color: #E8E8E8;
 	opacity: 0.5;
@@ -572,7 +576,7 @@ h2 {
 }
 
 .info-bg {
-	font-family: "Playlist", sans-serif;
+	font-family: 'Ribeye';
 	font-size: 12em;
 	color: #E8E8E8;
 	opacity: 0.5;
