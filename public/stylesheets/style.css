@@ -243,7 +243,7 @@ video {
 	position: absolute;
 	top: 700px;
 	left: 50px;
-	width: 100vw;
+	width: 25vw;
 	margin: 1em 1em;
 }
 
@@ -251,13 +251,13 @@ video {
 	video {
 		
 		float: center;
-		width: 100vw;
+		width: 25vw;
 		
 
 	}
 	.video-bg {
 		left: -1em;
-		width: 100vw;
+		width: 25vw;
 	
 	}
 }
@@ -376,7 +376,7 @@ footer {
 .tipsTitle {
 	padding: 5em 0;
 	font-size: 4em;
-	font-family: 'Ribeye', cursive;
+	font-family: 'Playlist', cursive;
 	color: #FFF;
 }
 
@@ -451,6 +451,7 @@ p .txt {
 	margin: 3em 3em 3em 3em;
 }
 
+
 .his-pic2 {
 	float: right;
 	margin: 3em 3em 3em 3em;
@@ -462,6 +463,21 @@ p .txt {
 	margin: 3em 3em 3em 3em;
 }
 
+@media (max-width: 768px) {
+	.his-pic1 {
+		display: none;
+	}
+
+	.his-pic2 {
+		float: none;
+	}
+
+	.his-pic3 {
+		float: none;
+	}
+}
+
+
 .historyArea p {
 	font-size: 1.17em;
 	line-height: 2;
@@ -470,6 +486,12 @@ p .txt {
 	padding: 5em 3em 3em 3em;
 	z-index: 1
 
+}
+
+@media (max-width: 1024px) {
+	 .historyArea p{
+		padding: 1em 1em 0 1em;
+	}
 }
 
 .p3 {
@@ -496,7 +518,7 @@ p .txt {
 }
 
 .history-bg {
-	font-family: 'Ribeye';
+	font-family: 'Playlist';
 	font-size: 15em;
 	color: #E8E8E8;
 	opacity: 0.5;
@@ -507,6 +529,12 @@ p .txt {
 	transform: rotate(-10deg);
 }
 
+
+@media (max-width: 1024px) {
+	.history-bg {
+		display: none;
+	}
+}
 
 /* About
 ===================*/
@@ -548,7 +576,7 @@ p .txt {
 
 @media (min-width: 1024px) {
 	.project-bg {
-		font-family: 'Ribeye';
+		font-family: 'Playlist';
 		font-size: 10em;
 		color: #E8E8E8;
 		opacity: 0.5;
@@ -633,7 +661,7 @@ h2 {
 }
 
 .info-bg {
-	font-family: 'Ribeye';
+	font-family: 'Playlist';
 	font-size: 10em;
 	color: #E8E8E8;
 	opacity: 0.5;
