@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
 @import	url('https://fonts.googleapis.com/css?family=Ribeye');
 
-@font-face {
+/*@font-face {
    font-family: Playlist Script;
-   src: url('Playlist Script.otf') format("opentype");}
+   src: url('Playlist Script.otf') format("opentype");}*/
 
 * {
 	box-sizing: border-box;
@@ -422,7 +422,7 @@ footer {
 .tipsTitle {
 	padding: 2em 0;
 	font-size: 6em;
-	font-family: 'Playlist', cursive;
+	font-family: 'Ribeye', cursive;
 	color: #FFF;
 
 
@@ -572,8 +572,8 @@ p .txt {
 }
 
 .history-bg {
-	font-family: 'Playlist';
-	font-size: 15em;
+	font-family: 'Ribeye';
+	font-size: 12em;
 	color: #E8E8E8;
 	opacity: 0.5;
 	position: absolute;
@@ -591,11 +591,20 @@ p .txt {
 	}
 }
 
+@media (max-width: 1280px) {
+	.history-bg {
+		display: block;
+		font-size: 7em;
+		top: 1100px;
+		left: 100px;
+	}
+}
+
 @media (max-width: 1024px) {
 	.history-bg {
 		display: block;
-		font-size: 10em;
-		top: 1100px;
+		font-size: 7em;
+		top: 1700px;
 		left: 100px;
 	}
 }
@@ -640,7 +649,7 @@ p .txt {
 
 @media (min-width: 1024px) {
 	.project-bg {
-		font-family: 'Playlist';
+		font-family: 'Ribeye';
 		font-size: 10em;
 		color: #E8E8E8;
 		opacity: 0.5;
@@ -663,9 +672,18 @@ p .txt {
 @media (max-width: 1024px) {
 	.project-bg {
 		display: block;
-		font-size: 10em;
-		top: 1100px;
-		left: 100px;
+		font-size: 7em;
+		top: 1300px;
+		left: 460px;
+	}
+}
+
+
+@media (max-width: 1280px) {
+	.project-bg {
+		font-size: 7em;
+		top: 1300px;
+		left: 700px;
 	}
 }
 
@@ -749,7 +767,7 @@ h2 {
 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
 	.info-pic1 {
 	display: none;
 	}
@@ -762,16 +780,36 @@ h2 {
 		display: none;
 	}
 }
+@media (max-width: 1024px) {
+	.info-innner p {
+		padding: 22em 25em 7em 3em;
+	}
+	.info-pic1 {
+		top: 1000px;
+		left: 600px;
+	}
+
+	.info-pic2 {
+		top: 1200px;
+		left: 700px;
+	}
+
+	.info-pic3 {
+		top: 1400px;
+		left: 650px;
+	}
+}
+
 
 .info-bg {
-	font-family: 'Playlist';
-	font-size: 10em;
+	font-family: 'Ribeye';
+	font-size: 8em;
 	color: #E8E8E8;
 	opacity: 0.5;
 	position: absolute;
 	bottom: 0;
-	top: 1350px;
-	left: 400px;
+	top: 1300px;
+	left: 600px;
 	z-index: 2;
 	transform: rotate(-10deg);
 }
@@ -782,11 +820,24 @@ h2 {
 	}
 }
 
+@media (max-width: 1280px) {
+	.info-pic1 {
+		left: 900px;
+	}
+
+	.info-bg {
+		display: block;
+		font-size: 8em;
+		top: 1420px;
+		left: 100px;
+	}
+}
+
 @media (max-width: 1024px) {
 	.info-bg {
 		display: block;
-		font-size: 10em;
-		top: 1100px;
+		font-size: 7em;
+		top: 1550px;
 		left: 100px;
 	}
 }
