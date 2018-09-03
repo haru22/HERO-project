@@ -285,6 +285,12 @@ video {
 	}
 }
 
+@media (max-height: 700px) {
+	video {
+		margin-top: 3em;
+	}
+}
+
 
 /*  index who we are
 ========================== */
