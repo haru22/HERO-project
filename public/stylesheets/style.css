@@ -123,13 +123,15 @@ p:last-of-type {
 ================== */
 
 header {
-	position: absolute;
-	margin: -.3em -1em -1em 0em;
+	/*position: absolute;
+	/*margin: -.3em -1em -1em 0em; */
 	left: 0;
 	right: 0;
 	background-color: #FFF;
 	padding-top: .5em;
 }
+
+
 
 nav ul {
 	margin: 1em;
@@ -188,7 +190,7 @@ nav.stroke ul li a:hover:after {
 
 	.logo {
 		float: left;
-		margin-left: 1em;
+		margin-left: 3em;
 	}
 	.nav {
 		float: right;
@@ -324,6 +326,13 @@ video {
 	padding-bottom: 10em;
 }
 
+@media (max-width: 500px) {
+	 .pictures {
+	 	margin: 0.3em 0 0em;
+	 	padding-bottom: 0;
+	 }
+}
+
 .fade-in .pictures{
   transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
@@ -374,15 +383,21 @@ footer {
 =================== */
 
 .tipsTitle {
-	padding: 5em 0;
-	font-size: 4em;
+	padding: 2em 0;
+	font-size: 6em;
 	font-family: 'Playlist', cursive;
 	color: #FFF;
+
+
 }
 
 @media (max-width: 468px) {
 	.tipsTitle{
 		font-size: 4em;
+		padding-bottom: 1em;
+		padding-top: 2.5em;
+		width: 100vw;
+		padding-right: 0;
 	}
 }
 
@@ -392,25 +407,7 @@ footer {
 	}
 }
 
-@media (max-width: 400px) {
-	.tipsTitle{
-		font-size: 2em;
-		padding-top: 3em;
-	}
-}
-/*@media (min-width: 20em) {
-	.tipsTitle {
-		padding: 7em;
-		font-size: 2em;
-	}
-}
 
-@media (min-width: 60em) {
-	.tipsTitle {
-		padding: 3em 0 2em 0;
-		font-size: 6em;
-	}
-}*/
 
 
 
@@ -477,6 +474,26 @@ p .txt {
 	}
 }
 
+@media (max-width: 610px) {
+
+	.his-pic2 {
+		float: none;
+		margin: 0;
+	}
+
+	.his-pic3 {
+		float: none;
+		margin: 0;
+	}
+}
+
+.historyArea {
+	background-color: #FFCBA4;
+	margin: 0 2.5em 0 2.5em;
+	width: 100vw;
+
+}
+
 
 .historyArea p {
 	font-size: 1.17em;
@@ -494,6 +511,14 @@ p .txt {
 	}
 }
 
+@media (max-width: 500px) {
+	 .historyArea p {
+	 	font-size: 0.8em;
+	 }
+}
+
+
+
 .p3 {
 	padding-bottom: 8em;
 	padding-top: 4em;
@@ -505,16 +530,12 @@ p .txt {
 	background: linear-gradient(transparent 40%, #BDEDFF 40%);
 }
 
-.historyArea {
-	background-color: #FFCBA4;
-	margin: 0 2.5em 0 2.5em;
-
-}
 
 .titleArea {
 	background-image: url("/images/Movie_180716_0048.jpg");
 	background-size: cover;
 	margin: 0 2.5em 0 2.5em;
+	width: 100vw;
 }
 
 .history-bg {
@@ -527,14 +548,25 @@ p .txt {
 	top: 1350px;
 	left: 70px;
 	transform: rotate(-10deg);
+	z-index: 1 ;
 }
 
+
+@media (max-width: 768px) {
+	.history-bg {
+		display: none !important;
+	}
+}
 
 @media (max-width: 1024px) {
 	.history-bg {
-		display: none;
+		display: block;
+		font-size: 10em;
+		top: 1100px;
+		left: 100px;
 	}
 }
+
 
 /* About
 ===================*/
@@ -570,7 +602,6 @@ p .txt {
 	background-repeat: no-repeat;
 	background-position: center;
 	width:100vw;
-	height:100vh;
 }
 
 
@@ -588,9 +619,20 @@ p .txt {
 	}
 }
 
+
+
+@media (max-width: 768px) {
+	.project-bg {
+		display: none !important;
+	}
+}
+
 @media (max-width: 1024px) {
 	.project-bg {
-		display: none;
+		display: block;
+		font-size: 10em;
+		top: 1100px;
+		left: 100px;
 	}
 }
 
@@ -618,6 +660,7 @@ h2 {
 	background-image: url("/images/Cambodia_180619_0068.jpg");
 	margin: 0 2.5em 0 2.5em;
 	background-size: cover;
+	width: 100vw;
 }
 
 .info-list {
