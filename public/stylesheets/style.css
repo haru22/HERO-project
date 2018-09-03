@@ -512,11 +512,7 @@ p .txt {
 	}
 }
 
-@media (max-width: 500px) {
-	 .historyArea p {
-	 	font-size: 0.8em;
-	 }
-}
+
 
 
 
