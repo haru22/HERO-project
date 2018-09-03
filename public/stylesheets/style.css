@@ -218,23 +218,13 @@ nav.stroke ul li a:hover:after {
 	padding: 10em 0;
 	color: #FFF;
 	height: 100vh;
-
-
-
-
 }
-@media (min-width: 40rem) {
-	.about-hero {
-		
-		padding-top: 35vh;
 
-	}
-}
 
 video {
 	background-color: #232323;
 	padding: 0em 3.5em;
-	width: 100vw
+	width: 25vw
 	position: relative;
 	float: left;
 	outline: 2px solid #E8E8E8;
@@ -251,27 +241,50 @@ video {
 
 @media (max-width: 1024px) {
 	video {
-		
-		float: center;
-		width: 25vw;
-		
-
+		margin-top: 12em;
+		width: 100vw;
+		padding: 2em 0 1em 0; 
+		float: none;
+		outline: none;
+		outline-offset: none;
 	}
 	.video-bg {
 		left: -1em;
 		width: 25vw;
 	
 	}
-}
-
-@media (max-width: 470px) {
-	video {
-		float: center;
-		width: 800px;
-		height: 600px;
-
+	.about-hero {
+		height: 60vh;
+	}
+	.container {
+		position: absolute;
+		top: 300px;
 	}
 }
+
+@media (max-width: 768px) {
+	video {
+		margin-top: 3em;
+		padding: 1em 0 1em 0; 
+	}
+}
+
+@media (max-width: 500px) {
+	video {
+		margin-top: 14em;
+		padding: 1em 0 1em 0; 
+	}
+	.about-hero {
+		height: 100vh;
+	}
+} 
+
+@media (max-width: 360px) {
+	video {
+		margin-top: 8em;
+	}
+}
+
 
 /*  index who we are
 ========================== */
@@ -282,7 +295,7 @@ video {
 	text-align: left;
 	word-wrap: break-word;
 	float: right;
-	padding: 5em 6em 2em 45em;
+	padding: 2em 1em 2em 43em;
 }
 
 
@@ -297,12 +310,29 @@ video {
 
 
 
-@media (max-width: 1238px) {
+@media (max-width: 1024px) {
 	.whoWeAre {
-		padding:17em 1em 0 1em;
+		padding:28em 1em 0 1em;
 	}
 }
 
+@media (max-width: 1000px) {
+	.whoWeAre {
+		padding:28em 1em 0 1em;
+	}
+}
+
+@media (max-width: 500px) {
+	.whoWeAre {
+			padding:17em 1em 0 1em;
+	}
+}
+
+@media (max-width: 450px) {
+	.whoWeAre {
+			padding:30em 1em 0 1em;
+	}
+}
 /*
 @media (max-width: 60rem) {
 
