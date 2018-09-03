@@ -375,6 +375,7 @@ video {
 footer {
 	padding: 20px;
 	background-color: #FFF;
+	width: 100vw;
 }
 
 
@@ -672,6 +673,13 @@ h2 {
 	outline-offset: -1em;
 	background-color: #FFDFC2;
 	margin: 3em auto 1em 1em;
+	
+}
+
+@media (max-width: 768px) {
+	.info-list {
+		margin: 0;
+	}
 }
 
 .info-innner p{
@@ -681,15 +689,18 @@ h2 {
 	padding: 22em 35em 7em 3em;
 	word-wrap: break-word;
 	z-index: 3;
+
 }
 
 .info-pic1 {
+	display: block;
 	position: absolute;
 	top: 830px;
 	left: 1000px;
 }
 
 .info-pic2 {
+	display: block;
 	position: absolute;
 	top: 980px;
 	left: 850px;
@@ -697,10 +708,27 @@ h2 {
 }
 
 .info-pic3 {
+	display: block;
 	position: absolute;
 	top: 1200px;
 	left: 1000px;
 	
+}
+
+
+
+@media (max-width: 1024px) {
+	.info-pic1 {
+	display: none;
+	}
+
+	.info-pic2 {
+		display: none;
+	}
+
+	.info-pic3 {
+		display: none;
+	}
 }
 
 .info-bg {
@@ -716,10 +744,26 @@ h2 {
 	transform: rotate(-10deg);
 }
 
+@media (max-width: 768px) {
+	.info-bg {
+		display: none !important;
+	}
+}
+
+@media (max-width: 1024px) {
+	.info-bg {
+		display: block;
+		font-size: 10em;
+		top: 1100px;
+		left: 100px;
+	}
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .info-innner p{
         padding:0;
+        padding-left: 1.5em;
     }
 
     .img-mobile {
